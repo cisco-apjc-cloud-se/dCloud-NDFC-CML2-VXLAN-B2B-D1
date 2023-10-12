@@ -359,8 +359,8 @@ nodes:
     configuration: |2-
 
       !Command: show running-config
-      !Running configuration last done at: Fri Oct  6 05:44:35 2023
-      !Time: Fri Oct  6 05:44:36 2023
+      !Running configuration last done at: Thu Oct 12 04:34:11 2023
+      !Time: Thu Oct 12 04:34:12 2023
 
       version 10.4(1) Bios:version
       hostname DC1-VBGW1
@@ -819,6 +819,7 @@ nodes:
         exec-timeout 0
       line vty
         exec-timeout 0
+      boot nxos bootflash:/nxos64-cs.10.4.1.F.bin
       router ospf UNDERLAY
         router-id 10.101.1.1
       router bgp 65101
@@ -948,8 +949,8 @@ nodes:
     configuration: |2-
 
       !Command: show running-config
-      !Running configuration last done at: Fri Oct  6 05:44:36 2023
-      !Time: Fri Oct  6 05:44:36 2023
+      !Running configuration last done at: Thu Oct 12 04:34:34 2023
+      !Time: Thu Oct 12 04:34:34 2023
 
       version 10.4(1) Bios:version
       hostname DC1-VBGW2
@@ -1407,6 +1408,7 @@ nodes:
         exec-timeout 0
       line vty
         exec-timeout 0
+      boot nxos bootflash:/nxos64-cs.10.4.1.F.bin
       router ospf UNDERLAY
         router-id 10.101.1.2
       router bgp 65101
@@ -1536,8 +1538,8 @@ nodes:
     configuration: |2-
 
       !Command: show running-config
-      !Running configuration last done at: Fri Oct  6 05:44:37 2023
-      !Time: Fri Oct  6 05:44:38 2023
+      !Running configuration last done at: Thu Oct 12 04:34:57 2023
+      !Time: Thu Oct 12 04:34:57 2023
 
       version 10.4(1) Bios:version
       hostname DC2-VBGW1
@@ -1996,6 +1998,7 @@ nodes:
         exec-timeout 0
       line vty
         exec-timeout 0
+      boot nxos bootflash:/nxos64-cs.10.4.1.F.bin
       router ospf UNDERLAY
         router-id 10.2.0.1
       router bgp 65102
@@ -2125,8 +2128,8 @@ nodes:
     configuration: |2-
 
       !Command: show running-config
-      !Running configuration last done at: Fri Oct  6 05:45:17 2023
-      !Time: Fri Oct  6 05:45:18 2023
+      !Running configuration last done at: Thu Oct 12 04:35:50 2023
+      !Time: Thu Oct 12 04:35:51 2023
 
       version 10.4(1) Bios:version
       hostname DC2-VBGW2
@@ -2583,6 +2586,7 @@ nodes:
         exec-timeout 0
       line vty
         exec-timeout 0
+      boot nxos bootflash:/nxos64-cs.10.4.1.F.bin
       router ospf UNDERLAY
         router-id 10.2.0.2
       router bgp 65102
@@ -2712,8 +2716,8 @@ nodes:
     configuration: |2-
 
       !Command: show running-config
-      !Running configuration last done at: Fri Oct  6 05:33:39 2023
-      !Time: Fri Oct  6 05:33:39 2023
+      !Running configuration last done at: Thu Oct 12 04:32:27 2023
+      !Time: Thu Oct 12 04:32:28 2023
 
       version 10.4(1) Bios:version
       hostname DC1-TOR1
@@ -3235,8 +3239,8 @@ nodes:
     configuration: |2-
 
       !Command: show running-config
-      !Running configuration last done at: Fri Oct  6 05:34:29 2023
-      !Time: Fri Oct  6 05:34:30 2023
+      !Running configuration last done at: Thu Oct 12 04:32:49 2023
+      !Time: Thu Oct 12 04:32:49 2023
 
       version 10.4(1) Bios:version
       hostname DC1-TOR2
@@ -3758,8 +3762,8 @@ nodes:
     configuration: |2-
 
       !Command: show running-config
-      !Running configuration last done at: Fri Oct  6 05:35:15 2023
-      !Time: Fri Oct  6 05:35:16 2023
+      !Running configuration last done at: Thu Oct 12 06:31:33 2023
+      !Time: Thu Oct 12 06:31:34 2023
 
       version 10.4(1) Bios:version
       hostname DC1-TOR3
@@ -4352,8 +4356,8 @@ nodes:
     configuration: |2-
 
       !Command: show running-config
-      !Running configuration last done at: Fri Oct  6 05:38:17 2023
-      !Time: Fri Oct  6 05:38:17 2023
+      !Running configuration last done at: Thu Oct 12 04:35:18 2023
+      !Time: Thu Oct 12 04:35:19 2023
 
       version 10.4(1) Bios:version
       hostname DC2-TOR1
@@ -4875,8 +4879,8 @@ nodes:
     configuration: |2-
 
       !Command: show running-config
-      !Running configuration last done at: Fri Oct  6 05:37:32 2023
-      !Time: Fri Oct  6 05:37:33 2023
+      !Running configuration last done at: Thu Oct 12 04:35:51 2023
+      !Time: Thu Oct 12 04:35:51 2023
 
       version 10.4(1) Bios:version
       hostname DC2-TOR2
@@ -5398,8 +5402,8 @@ nodes:
     configuration: |2-
 
       !Command: show running-config
-      !Running configuration last done at: Fri Oct  6 05:38:45 2023
-      !Time: Fri Oct  6 05:38:46 2023
+      !Running configuration last done at: Thu Oct 12 04:36:30 2023
+      !Time: Thu Oct 12 04:36:31 2023
 
       version 10.4(1) Bios:version
       hostname DC2-TOR3
